@@ -1,0 +1,75 @@
+.sidebar {
+  background-color: var(--bg-primary);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px var(--card-shadow);
+  border: 1px solid var(--border-color);
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-section {
+  margin-bottom: 30px;
+}
+
+.sidebar-section:last-child {
+  margin-bottom: 0;
+}
+
+.sidebar-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #3b82f6;
+}
+
+.sidebar-list {
+  list-style: none;
+}
+
+.sidebar-list li {
+  margin-bottom: 10px;
+}
+
+.sidebar-link {
+  color: var(--text-secondary);
+  font-size: 14px;
+  transition: color 0.3s ease, padding-left 0.3s ease;
+  display: block;
+  padding: 5px 0;
+}
+
+.sidebar-link:hover {
+  color: #3b82f6;
+  padding-left: 10px;
+}
+
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag-cloud-item {
+  background-color: var(--bg-tertiary);
+  color: var(--text-secondary);
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-size: 13px;
+  transition: all 0.3s ease;
+  border: 1px solid var(--border-color);
+}
+
+.tag-cloud-item:hover {
+  background-color: #3b82f6;
+  color: white;
+  transform: translateY(-2px);
+  border-color: #3b82f6;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    margin-top: 30px;
+  }
+}
