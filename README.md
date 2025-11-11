@@ -7,6 +7,37 @@ A modern, full-stack blog platform with AI-powered features, instant authenticat
 ![FastAPI](https://img.shields.io/badge/FastAPI-Latest-009688?logo=fastapi)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb)
 
+## 📸 Screenshots
+
+### Homepage
+![Homepage](Images/Homepage.png)
+
+### Trending Blogs
+![Trending Blogs](Images/Trending%20Blogs.png)
+
+### Latest News Section
+![Latest News](Images/Latest%20News%20Section.png)
+
+### Blog Post Detail
+![Blog Post](Images/Blog%20Post1.png)
+![Blog Post Complete](Images/Blog%20Post%201%20complete.png)
+
+### AI Integrated Chatbot
+![AI Chatbot](Images/AI%20Integrated%20chatbot.png)
+![AI Chatbot Interface](Images/AI%20Integrated%20chatbot1.png)
+
+### Blog Categories
+![Categories](Images/Blog%20Categories.png)
+
+### Admin Dashboard
+![Admin Dashboard](Images/Admin%20Dashboard.png)
+
+### Adding Blog Post
+![Adding Blog](Images/Adding%20a%20blog%20post.png)
+
+### Login Page
+![Login](Images/Login%20%20Page.png)
+
 ## ✨ Features
 
 ### 🎨 Frontend Features
